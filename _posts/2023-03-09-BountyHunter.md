@@ -1,5 +1,5 @@
 ---
-title: BountyHunter - HTB
+title: BountyHunter
 date: 2023-03-09
 categories: [HackTheBox, Linux]
 tags: [http, burp, xxe, ssh, python, command-injection]
