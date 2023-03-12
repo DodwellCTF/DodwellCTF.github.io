@@ -75,7 +75,7 @@ Once I have crafted my attack I can now use a tool like [CyberChef](https://gchq
 
 Now all that is left is to send the attack. To do this, in burp we will send our initial intercepted request to the repeater. Next we will change the data being sent with our own encoded attack and send it off. 
 
-![Passwd XXE attack](xxePasswwd.PNG)
+![Passwd XXE attack](xxePasswd.PNG)
 
 Looks like we were successful!
 
