@@ -1,6 +1,6 @@
 ---
 title: BountyHunter
-date: 2023-03-09
+date: 2023-03-13
 categories: [HackTheBox, Linux]
 tags: [http, burp, xxe, ssh, python, command-injection]
 img_path: /assets/img/BountyHunter/
