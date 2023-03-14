@@ -22,7 +22,7 @@ From this scan we can see that the machine is SSH (port 22) and HTTP (port 80). 
 
 ![Bounty Hunter Website](website.PNG)
 
-From a first look over the website, we can see a simple web page that has a download button for a pricing guide and a contact form. In the drop-down menu in the top right, we can also see an option for a portal. Before going through anymore of the website, I will run a Gobuster scan to see if there are any extra directories to get information from.
+From a first look over the website, we can see a simple web page that has a download button for a pricing guide and a contact form. In the drop-down menu in the top right, we can also see an option for a portal. Before going through anymore of the website, I will run a Gobuster scan to see if there are any extra directories to get information from. After noticing that the portal page had a `.php` extension, I included `-x PHP` in my GoBuster scan to search for additional directories that use PHP.
 
 ![Gobuster scan](gobuster.PNG)
 
